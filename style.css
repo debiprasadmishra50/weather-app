@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #444;
+    background-color: #ececec;
+}
+
+h1 {
+    font-weight: 600;
+    background: linear-gradient(to top left, #39b385, #9be15d);
+    color: #444;
+    padding: 10px 0;
+}
+
+.container {
+    border: 1px solid #000;
+    padding-top: 1em;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.btn-f:hover {
+    background: #ececec;
+    color: #444;
+}
+
+img {
+    border: 5px solid #fff;
+    background-color: #fc9292;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 580px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        border: none;
+    }
+}
