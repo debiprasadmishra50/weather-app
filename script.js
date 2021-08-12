@@ -6,7 +6,7 @@ const msg = document.querySelector(".msg");
  * @param {Number} temp temperature in celcius
  * @returns temperature in getFarenhit
  */
-const getFarenhit = (temp) => temp * 1.8 + 32;
+const getFarenhit = (temp) => (temp * 1.8 + 32).toFixed(3);
 
 /**
  * Renders data for current weather
